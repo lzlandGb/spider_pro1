@@ -1,0 +1,5 @@
+[DEBUG][2018-06-22 20:12:56,147][代理测试.py][check_proxy][49][<urlopen error [Errno -2] Name or service not known>]
+[DEBUG][2018-06-22 20:13:59,206][代理测试.py][check_proxy][49][<urlopen error [Errno -2] Name or service not known>]
+[DEBUG][2018-06-22 20:14:39,001][代理测试.py][check_proxy][49][<urlopen error [Errno -2] Name or service not known>]
+[DEBUG][2018-06-22 20:16:55,737][代理测试.py][check_proxy][49][请求超时{'http': '3435.4.34.324.5'}该代理无法使用]
+[DEBUG][2018-06-22 20:18:11,747][代理测试.py][check_proxys][33][{'http': '3435.4.34.324.5'}请求超时该代理无法使用]

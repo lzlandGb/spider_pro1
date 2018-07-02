@@ -1,0 +1,21 @@
+[INFO  - 2018-06-23T01:24:49.836Z] GhostDriver - Main - running on port 40964
+[INFO  - 2018-06-23T01:24:50.778Z] Session [39877760-7684-11e8-8849-73fab20e65fa] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-23T01:24:50.778Z] Session [39877760-7684-11e8-8849-73fab20e65fa] - page.customHeaders:  - {}
+[INFO  - 2018-06-23T01:24:50.778Z] Session [39877760-7684-11e8-8849-73fab20e65fa] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-23T01:24:50.778Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39877760-7684-11e8-8849-73fab20e65fa
+[ERROR - 2018-06-23T01:24:57.078Z] Session [39877760-7684-11e8-8849-73fab20e65fa] - page.onError - msg: TypeError: undefined is not a function (evaluating 'Number.parseInt(feedlist.views)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-23T01:24:57.078Z] Session [39877760-7684-11e8-8849-73fab20e65fa] - page.onError - stack:
+  (anonymous function) (https://www.csdn.net/js/csdn_feed.min.js?1528366603:1)
+  each (https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js:3)
+  getList (https://www.csdn.net/js/csdn_feed.min.js?1528366603:1)
+  success (https://www.csdn.net/js/csdn_feed.min.js?1528366603:1)
+  c (https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js:3)
+  fireWith (https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js:3)
+  k (https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js:5)
+  r (https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js:5)
+  __ty_aysncWrap__ (https://www.csdn.net/js/tingyun-rum-feed.js?v=20180509:1)
+  __ty_aysncWrap__ (https://www.csdn.net/js/tingyun-rum-feed.js?v=20180509:1)
+
+  phantomjs://platform/console++.js:263 in error
